@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap');
+
+/* CSS codes */
+.generaldivforindexpage{
+  font-family: "Reem Kufi", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100vh;
+    background: #fff;/* background:#221d2d; */
+    color: #fdfcfd;
+}
+.card{
+    display: flex;
+    align-items: center;
+    width: 75vw;
+    max-width: 650px;
+    padding: 50px 30px 50px 20px;
+    background: #121017;
+    border-radius: 24px;
+}
+.card img{
+    max-width: 280px;
+    width: 35vw;
+    height: 300px;
+    object-fit: cover;
+    margin-left: -60px;
+    margin-right: 30px;
+    border-radius: inherit;
+    border: 2px solid #04a4ff;
+    box-shadow: 0 60px 40px rgb(0 0 0 / 8%);
+}
+.card h2{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.card h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    opacity: 0.75;
+}
+.card p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
+.card .followbtn{
+    display: grid;
+    place-items: center;
+    border: 0;
+    background: #04a4ff;
+    color: #f8f8f8;
+    padding: 16px 26px;
+    font-size: 16px;
+    border-radius: 40px;
+}
+.card .socialicons {
+    display: flex;
+    padding-top: 5px;
+    place-items: center;
+    color: #f8f8f8;
+    
+  }
+  
+ .card .socialicons a {
+    margin: 0 10px;
+    border-radius: 50px;
+    color: #fff;
+    padding: 16px 26px;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    background: #04a4ff;
+    text-decoration: none;
+  }
+  
+  .card .socialicons a i {
+    font-size: 24px;
+  }
+  
+ .card .socialicons a:hover {
+    color: #000; /* or any other color */
+  }
+
+  .card .sitelink{
+    color: #f8f8f8;
+    font-weight: 400;
+    font-size: 25px;
+    
+  }
+  .card .sitelink .textgo{
+    border-left:5px solid #04a4ff;
+    padding: 2px;
+  }
+  .textqoute{
+    color: #04a4ff;
+    font-size:20px;
+    font-weight: bold;
+  }
+  .card .sitelink i{
+    color: #04a4ff;
+  }
+  .card .sitelink .linksite{
+    color: #f8f8f8;
+  }
+
+  .card .starrating {
+    align-items: center;
+    color: #f1c40f;
+  }
+  
+  .card .indexpagefooter{
+    text-align: center;
+    margin-top: 10vh;
+    background-color:#121017 ;
+  }
+  .whatsappbutton {
+    position: fixed;
+    bottom: 5vh;
+    right: 20px;
+    z-index: 999;
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .whatsappbutton i {
+    margin-right: 5px;
+  }
+  
+  .whatsappbutton:hover {
+    background-color: #1da154;
+  }
+  
+@media  (width <= 600px){
+    .card{
+        margin: 0 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 60px;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+    .card h2{
+        margin-right: 0;
+    }
+    .card img{
+        margin: -100px 0 30px 0;
+        width: 100%;
+        max-width: 1000px;
+    }
+    .card p{
+        max-width: 360px;
+    }
+    @media (width <= 440px) {
+        .card{
+            margin-top: 20vh;
+            width: 80%;
+        }
+        .card img{
+            height: 45vw;
+            width: 45vw;
+            border-radius: 50%;
+            margin-top: -140px;
+        }
+    }
+}
+
+/* GitHubProfileCard.module.css */
+
+.cardgit {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Reem Kufi", sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cardgit p {
+  margin: 10px 0;
+}
+.cardgit p label{
+  font-size: 16px;
+  color: #04a4ff;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.cardgit ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cardgit ul li {
+  margin-bottom: 5px;
+}
+
+.cardgit img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+/* About.module.css */
+
+.aboutContainerwd {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.descriptionwd {
+  font-family: 'Rem kufi', sans-serif;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+  line-height: 1.6;
+}
